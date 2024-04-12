@@ -7,16 +7,24 @@ Objective:
 The objective of this project is to develop a Decision Tree classifier to assist counselors in predicting student admissions to foreign universities based on their GRE scores and academic performance. By leveraging machine learning techniques, we aim to streamline the admissions process, providing counselors with a reliable tool to make informed decisions efficiently.
 
 Software used:
-1.	Python 3.x
+1.	Python 3.10.11
 2.	VS Code
 
 Libraries and packages used: Pandas, sklearn, NumPy, Matplotlib
 
-Theory:
+
 Methodology: 
-Classification: Classification is the process of organizing a dataset into classes or categories. This can be applied to both structured and unstructured data, with the goal of predicting the class of given data points based on their features.
-Decision Tree: A Decision Tree is a predictive model that utilizes a tree-like structure to represent decisions and their potential consequences. It starts with a root node and branches out into decision nodes, which are then further split into leaf nodes. Each node represents a decision based on a feature, and the leaves represent the final outcome or prediction.
-Entropy: Entropy is a measure of the randomness or impurity in a dataset. In the context of Decision Trees, entropy is used to quantify the homogeneity of a sample. A sample with low entropy is more homogeneous, while a sample with high entropy is more diverse.
+
+
+Classification: 
+        Classification is the process of organizing a dataset into classes or categories. This can be applied to both structured and unstructured data, with the goal of predicting the class of given data points based on their features.
+
+Decision Tree: 
+        A Decision Tree is a predictive model that utilizes a tree-like structure to represent decisions and their potential consequences. It starts with a root node and branches out into decision nodes, which are then further split into leaf nodes. Each node represents a decision based on a feature, and the leaves represent the final outcome or prediction.
+
+Entropy: 
+        Entropy is a measure of the randomness or impurity in a dataset. In the context of Decision Trees, entropy is used to quantify the homogeneity of a sample. A sample with low entropy is more homogeneous, while a sample with high entropy is more diverse.
+
 Constructing a Decision Tree:
 1. Calculate the entropy of the target variable.
 2. Split the dataset based on different attributes and calculate the entropy for each branch.
