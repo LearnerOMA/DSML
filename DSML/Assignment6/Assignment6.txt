@@ -13,12 +13,13 @@ Objective: This assignment will assist us in understanding the applications of l
 
 S/W Packages and H/W apparatus used:
 Software used:
-1.	Python 3.x
+1.	Python 3.10.11
 2.	VS Code
 
 Libraries and packages used: NumPy, Matplotlib, scikit-learn
 
 Theory:
+
 Linear Regression
 It's a statistical technique for forecasting analysis. Predictions are made using linear regression for continuous, real, or numerical variables like sales, earnings, age, and product price, among others. 
 The term "linear regression" refers to a procedure that displays a linear relationship between one or more independent (y) variables and a dependent (y) variable. 
@@ -51,19 +52,19 @@ Linear regression is a fundamental technique in statistics and machine learning 
 
 Here's how a linear regression model works for prediction:
 
-•	Importing necessary libraries and modules: They provide pre-built functionalities and extend your program's capabilities
+•Importing necessary libraries and modules: They provide pre-built functionalities and extend your program's capabilities
 
-•	Data Collection: Collect data on the variables of interest. For example, in a simple linear regression, you would have one independent variable (for eg. Year here) and one dependent variable (for eg. Temperature here).
+•Data Collection: Collect data on the variables of interest. For example, in a simple linear regression, you would have one independent variable (for eg. Year here) and one dependent variable (for eg. Temperature here).
 
-•	Data Preprocessing and EDA: This step involves cleaning the data and analysing it intricately.
+•Data Preprocessing and EDA: This step involves cleaning the data and analysing it intricately.
 
-•	Splitting the Data: Split the dataset into training and testing sets. The training set is used to train the model, while the testing set is used to evaluate its performance.
+•Splitting the Data: Split the dataset into training and testing sets. The training set is used to train the model, while the testing set is used to evaluate its performance.
 
-•	Model Training: Use the training data to fit a linear regression model. The model tries to find the best-fitting linear relationship between the independent and dependent variables. In simple linear regression, this relationship is represented by a line (y = mx + b), where m is the slope and b is the intercept.
+•Model Training: Use the training data to fit a linear regression model. The model tries to find the best-fitting linear relationship between the independent and dependent variables. In simple linear regression, this relationship is represented by a line (y = mx + b), where m is the slope and b is the intercept.
 
-•	Making Predictions: Once the model is trained, use it to make predictions on the testing data. The model calculates the predicted values of the dependent variable based on the values of the independent variable(s).
+•Making Predictions: Once the model is trained, use it to make predictions on the testing data. The model calculates the predicted values of the dependent variable based on the values of the independent variable(s).
 
-•	Evaluating the Model: Evaluate the model's performance using metrics such as mean squared error (MSE) or R-squared. These metrics measure how well the model's predictions match the actual values in the testing data.
+•Evaluating the Model: Evaluate the model's performance using metrics such as mean squared error (MSE) or R-squared. These metrics measure how well the model's predictions match the actual values in the testing data.
 
 
 
