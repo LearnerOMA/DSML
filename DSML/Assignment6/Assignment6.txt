@@ -13,8 +13,8 @@ Objective: This assignment will assist us in understanding the applications of l
 
 S/W Packages and H/W apparatus used:
 Software used:
-1.	Python 3.10.11
-2.	VS Code
+1.Python 3.10.11
+2.VS Code
 
 Libraries and packages used: NumPy, Matplotlib, scikit-learn
 
@@ -32,14 +32,15 @@ Multiple Linear Regression: This type of linear regression method is employed wh
 
 
 Applications of Simple Linear Regression:
-1.	Student grades determined by the number of hours studied (ideally):In this case, exam scores are dependent on the number of hours studied, but the number of hours studied is independent. 
+1.Student grades determined by the number of hours studied (ideally):In this case, exam scores are dependent on the number of hours studied, but the number of hours studied is independent. 
 
-2.	Estimating agricultural yields using rainfall data: The measure of precipitation is an independent variable, and yield is a dependent variable. 
+2.Estimating agricultural yields using rainfall data: The measure of precipitation is an independent variable, and yield is a dependent variable. 
 
 
-3.	Estimating an individual's salary based on years of experience: Experience is now the independent variable, and salary is the dependent variable. 
+3.Estimating an individual's salary based on years of experience: Experience is now the independent variable, and salary is the dependent variable. 
+
 Limitations of Simple Linear Regression: 
-1.	Assumes linearity: Regression models, particularly linear regression, assume a straight-line relationship between the independent and dependent variables. If the underlying relationship is more complex (curved, exponential, etc.), the model may not accurately capture the true association.
+1.Assumes linearity: Regression models, particularly linear regression, assume a straight-line relationship between the independent and dependent variables. If the underlying relationship is more complex (curved, exponential, etc.), the model may not accurately capture the true association.
 
 2.	Sensitive to outliers: Outliers (data points significantly different from the majority) can disproportionately influence the regression line, leading to misleading results.
 
