@@ -3,7 +3,7 @@ Exploratory Data Analysis and Machine Learning Modeling
 
 Problem Statement: The objective of this project is to perform exploratory data analysis (EDA) on a given dataset, including computing summary statistics, visualizing data distributions, and then building a machine learning classification model. The dataset contains multiple features, and the goal is to understand the characteristics of the data and create a model that can classify instances accurately.
 Software used: 
-1.	Python 3.x
+1.	Python 3.10.11
 2.	Vs Code
 Libraries and packages used: NumPy, pandas, matplotlib, sklearn
 Theory: 
