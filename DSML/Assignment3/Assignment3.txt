@@ -9,34 +9,41 @@ To achieve this, we've collected data on their customers, including CustomerID, 
 
 S/W Packages and H/W apparatus used:
 Software used:
-1.	Python 3.x
+1.	Python 3.10.11
 2.	VS Code
 Libraries and packages used: NumPy, Pandas
 
 Support Vector Machine(SVM):
-•	Supervised Learning Algorithm: SVM is a supervised learning algorithm, meaning it requires labeled data for training. It learns to classify data into different categories based on the features provided.
-•	Classification and Regression: SVM can be used for both classification and regression tasks. In classification, it separates data points into different classes, while in regression, it predicts a continuous outcome.
-•	Hyperplane Separation: The primary goal of SVM is to find the hyperplane that best separates different classes in the feature space. This hyperplane has the maximum margin, which is the distance between the hyperplane and the nearest data points of each class.
-•	Effective in High-dimensional Spaces: SVM is effective in high-dimensional spaces, where the number of dimensions exceeds the number of samples. It can handle complex datasets with many features.
-•	Kernel Trick: SVM uses a kernel function to map the input data into a high-dimensional feature space. This allows it to find nonlinear decision boundaries in the original feature space.
+  Supervised Learning Algorithm: SVM is a supervised learning algorithm, meaning it requires labeled data for training. It learns to classify data into different     categories based on the features provided.
+  Classification and Regression: SVM can be used for both classification and regression tasks. In classification, it separates data points into different classes,    while in regression, it predicts a continuous outcome.
+  Hyperplane Separation: The primary goal of SVM is to find the hyperplane that best separates different classes in the feature space. This hyperplane has the        maximum margin, which is the distance between the hyperplane and the nearest data points of each class.
+  Effective in High-dimensional Spaces: SVM is effective in high-dimensional spaces, where the number of dimensions exceeds the number of samples. It can handle      complex datasets with many features.
+  Kernel Trick: SVM uses a kernel function to map the input data into a high-dimensional feature space. This allows it to find nonlinear decision boundaries in the   original feature space.
 
 Application:
-•	Text Categorization: SVM is widely used in text categorization tasks such as spam detection, sentiment analysis, and document classification. It can effectively classify text data into different categories based on features extracted from the text.
-•	Image Classification: SVM is applied in image classification tasks where it can classify images into different categories such as objects, scenes, or characters. It can handle high-dimensional image data and effectively classify images with complex features.
-•	Customer Behavior Prediction: In the context of the cosmetics shop, SVM can be used to predict customer responses to special offers based on their demographic and spending characteristics. By analyzing features such as age, gender, annual income, and spending score, SVM can classify customers into different response categories, helping the shop tailor its marketing strategies accordingly.
-•	Anomaly Detection: SVM can also be used for anomaly detection tasks where it identifies rare events or outliers in the data. This can be useful in various applications such as fraud detection, network intrusion detection, or manufacturing quality control.
-•	Bioinformatics: SVM is applied in bioinformatics for tasks such as protein classification, gene expression analysis, and disease prediction. It can effectively handle high-dimensional biological data and extract meaningful patterns.
+ 	Text Categorization: SVM is widely used in text categorization tasks such as spam detection, sentiment analysis, and document classification. It can effectively    classify text data into different categories based on features extracted from the text.
+  Image Classification: SVM is applied in image classification tasks where it can classify images into different categories such as objects, scenes, or characters. 
+  It can handle high-dimensional image data and effectively classify images with complex features.
+  Customer Behavior Prediction: In the context of the cosmetics shop, SVM can be used to predict customer responses to special offers based on their demographic 
+  and spending characteristics. By analyzing features such as age, gender, annual income, and spending score, SVM can classify customers into different response 
+  categories, helping the shop tailor its marketing strategies accordingly.
+  Anomaly Detection: SVM can also be used for anomaly detection tasks where it identifies rare events or outliers in the data. This can be useful in various 
+  applications such as fraud detection, network intrusion detection, or manufacturing quality control.
+  Bioinformatics: SVM is applied in bioinformatics for tasks such as protein classification, gene expression analysis, and disease prediction. It can effectively 
+  handle high-dimensional biological data and extract meaningful patterns.
 
 Limitations of SVM:
-•	SVM might not perform well with large datasets as it can be computationally expensive during the training phase.
-•	It may not handle noisy data or data with overlapping classes effectively.
-•	SVM does not directly provide probability estimates, which might be a limitation in some applications where probabilistic outputs are required.
+	SVM might not perform well with large datasets as it can be computationally expensive during the training phase.
+	It may not handle noisy data or data with overlapping classes effectively.
+	SVM does not directly provide probability estimates, which might be a limitation in some applications where probabilistic outputs are required.
 
 Working of SVM:
-•	SVM maps the input data into a high-dimensional feature space using a kernel function.
-•	It then finds the hyperplane that best separates the data points of different classes.
-•	The hyperplane is chosen to maximize the margin, which is the distance between the hyperplane and the nearest data points (support vectors) of each class.
-•	During prediction, SVM classifies new data points based on which side of the hyperplane they fall on.
+	SVM maps the input data into a high-dimensional feature space using a kernel function.
+	It then finds the hyperplane that best separates the data points of different classes.
+	The hyperplane is chosen to maximize the margin, which is the distance between the hyperplane and the nearest data points (support vectors) of each class.
+	During prediction, SVM classifies new data points based on which side of the hyperplane they fall on.
 
 Conclusion:
-In conclusion, SVM is a powerful algorithm for classification tasks and can be effectively used to predict customer responses to special offers based on their demographic and spending characteristics. However, it's essential to preprocess the data properly, choose appropriate kernel functions, and tune the hyperparameters carefully to achieve the best performance. Additionally, considering the limitations of SVM, it's crucial to assess whether it's the most suitable algorithm for the specific problem at hand.
+  In conclusion, SVM is a powerful algorithm for classification tasks and can be effectively used to predict customer responses to special offers based on their      demographic and spending characteristics. However, it's essential to preprocess the data properly, choose appropriate kernel functions, and tune the   
+  hyperparameters carefully to achieve the best performance. Additionally, considering the limitations of SVM, it's crucial to assess whether it's the most 
+  suitable algorithm for the specific problem at hand.
