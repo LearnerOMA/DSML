@@ -20,15 +20,15 @@ Libraries and packages used: NumPy, Matplotlib, scikit-learn
 
 Theory:
 
-Linear Regression
-It's a statistical technique for forecasting analysis. Predictions are made using linear regression for continuous, real, or numerical variables like sales, earnings, age, and product price, among others. 
-The term "linear regression" refers to a procedure that displays a linear relationship between one or more independent (y) variables and a dependent (y) variable. 
-Given that linear regression displays a linear relationship, it can be used to determine how the value of the independent variable affects the value of the dependent variable. 
+Linear Regression : 
+	i) Linear regression is a type of supervised machine learning algorithm that computes the linear relationship between the dependent variable and one or 	more independent features by fitting a linear equation to observed data.
+	ii) Linear Regression can be used to continuously changing values to predict what whould be in future.
+	iii) Type of Linear Regression :
+		a) Simple Linear Regression : 1] This is the simplest form of linear regression, and it involves only one independent variable and one dependent 						 variable.
+ 					      2] y = mx + c
+		b) Multiple Linear Regression : 1] This involves more than one independent variable and one dependent variable.
+						2] y = ax + bx + cx .......... + nx
 
-Linear Regression Types: 
-Basic Linear Regression: 
-A linear regression procedure is referred to as simple linear regression if it uses one independent variable to predict the value of a number of dependent variables. 
-Multiple Linear Regression: This type of linear regression method is employed when multiple independent variables are combined to predict the value of a numerical dependent variable. 
 
 
 Applications of Simple Linear Regression:
