@@ -14,6 +14,11 @@ Libraries Used:
 3.Matplotlib (plt)
 4.Seaborn (sns)
 
+Importance of Data Visualization :-
+  i] Data Visualization is graphical or pictorial representation of information and data to analyse a trend , to see pattern of data , etc.
+  ii] Data visualization tools and technologies are essential to analyzing massive amounts of information and making data-driven decisions.
+  iii] It is also important to a person who is unkonown to project , we can use data visualization to tell a data story.
+
 Theory: 
 1) Methodology:
 Data visualization using Google Colab involves the use of various Python libraries such as Matplotlib, Seaborn, Pandas, and NumPy. These libraries provide a comprehensive set of tools to create a wide range of visualizations including scatter plots, bar plots, box plots, histograms, and more.
