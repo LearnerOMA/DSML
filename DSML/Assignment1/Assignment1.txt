@@ -32,9 +32,9 @@ Introduction To Pandas :
 3) At the core of Pandas are two main data structures: Series and DataFrame.
 4) A Series is a one-dimensional labeled array capable of holding any data type .
 5) DataFrame is a two-dimensional labeled data structure with columns of potentially different types.
-6) These data structures allow users to perform a wide range of operations on data, including loading data from various file formats (such as CSV, Excel, SQL databases), manipulating data (e.g., sorting, filtering, grouping), and performing statistical and analytical tasks.
-
-Some basic functions that we used in program :
+6) These data structures allow users to perform a wide range of operations on data, including loading data from various file formats (such as CSV, Excel, SQL 	 
+   databases), manipulating data (e.g., sorting, filtering, grouping), and performing statistical and analytical tasks.
+7 )Some basic functions that we used in program :
 1. pd.read_csv(): This function is used to read data from a CSV file into a DataFrame.
 2. head(): It is used to display the first few rows of the DataFrame, providing a quick overview of the data.
 3. sort_values(): This function sorts the DataFrame by the values of a specified column (in this case, 'Age'), allowing data to be arranged in ascending order.
