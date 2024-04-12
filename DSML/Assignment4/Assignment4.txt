@@ -9,12 +9,24 @@ Software used:
 
 Libraries and packages used: NumPy, Matplotlib, scikit-learn
 Theory:
-Methodology:
-•	K-means Clustering is a popular unsupervised machine learning algorithm used for partitioning data into distinct clusters. It groups the unlabeled dataset into different clusters. Here K defines the number of predefined clusters that need to be created in the process, as if K=2, there will be two clusters, and for K=3, there will be three clusters, and so on.
-•	The algorithm aims to minimize the variance within each cluster while maximizing the variance between clusters. The process involves iteratively assigning data points to the nearest cluster centroid and updating the centroids based on the mean of the points assigned to each cluster.
-•	The k-means clustering algorithm mainly performs two tasks:
-1.	Determines the best value for K center points or centroids by an iterative process.
-2.	Assigns each data point to its closest k-center. Those data points which are near to the particular k-center, create a cluster. 
+Clustering : 
+ 1] Clustering is way of grouping data points into different clusters where similar data points present . The data point with possible  similarities
+   present in similar group while that are not match lied in another clusters.
+ 2] It dose it by finding similar patters in dataset such as shape , size , color , etc.
+ 3] It  is an unservised learning model hence it is helpful with unlabeled data.
+ 4] Type of clustering : i) Hard Clustering : Here each data point belongs to a cluster completely or not called Hard Clustering .
+                         ii)Soft Clustering : Here data point's probability or likelihood of that point being that cluster is evaluated.
+ 5] Type of Clustering  Algorithms : 
+    i) Partitioning Clustering :
+                                Here data devided into non-hierarchical groups and most common algorithm for it is K-Means Clustering algorithm.
+    ii) Density-Based Clustering :
+                                  In this type of clustering method highly dense area get clustered into and arbitary shaped distribution get formed.
+    iii) Hierarchical Clustering : It  is a connectivity-based clustering model that groups the data points together that are close to each other based on the                                         measure of similarity or distance.
+                                   Types of Hierarchical Clustering : 
+                                   a) Agglomerative Clustering : It is bottom-up approch , done by successively agglomerate pairs of clusters until all cluster get                                                                   merged.
+                                   b) Divisive clustering : And it is top - down approch , done by successively divide cluster containing  whole data until it is a                                                             singleton clusters. 
+    iv) Distribution-based Clustering : Distribution-based clustering, data points are grouped according to their propensity to fall into the same probability                                              distribution (such as a Gaussian, binomial, or other) within the data.
+
 Advantages:
 1.	Simplicity: K-means is straightforward to implement and easy to understand.
 2.	Efficiency: It is computationally efficient and scales well to large datasets.
